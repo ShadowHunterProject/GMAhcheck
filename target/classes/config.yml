@@ -1,0 +1,10 @@
+# Danh sách các Tier của MMOItems được phép bán trên AxAuctions
+allowed-tiers:
+  - "A"
+  - "A+"
+  - "S"
+
+messages:
+  not-allowed-tier: "&cBạn chỉ được phép bán các vật phẩm có Tier được cấu hình trên chợ!"
+  not-mmoitem: "&cBạn không thể bán vật phẩm thường (không phải MMOItem) trên chợ!"
+  allow-vanilla: false # Nếu true, cho phép bán vật phẩm thường. Nếu false, chỉ cho phép bán MMOItem thuộc allowed-tiers.

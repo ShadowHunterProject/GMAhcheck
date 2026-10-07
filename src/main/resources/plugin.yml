@@ -1,0 +1,10 @@
+name: GMAhcheck
+version: 1.0.0
+main: gmstudio.GMAhcheck
+api-version: "1.21"
+author: Gemix
+description: A plugin to hook into AxAuctions and restrict listings based on MMOItems tiers.
+depend:
+  - AxAuctions
+  - MythicLib
+  - MMOItems
